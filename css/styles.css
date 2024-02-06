@@ -168,6 +168,20 @@ header nav ul li a {
     width: 150px;
     height: 150px;
   }
+  .arte-2 {
+    width: 400px;
+    height: 400px;
+  }
+  .btn {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave para efectos */
+  }
 }
 @media (min-width: 481px) and (max-width: 800px) {
   .ftcontainer {
@@ -183,6 +197,16 @@ header nav ul li a {
   .arte-1 {
     width: 150px;
     height: 150px;
+  }
+  .btn {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave para efectos */
   }
 }
 @media (min-width: 801px) and (max-width: 1200px) {

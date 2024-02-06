@@ -52,6 +52,23 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
         width: 150px;
         height: 150px;
     }
+
+    .arte-2{
+        width: 400px;
+        height: 400px;
+    }
+
+    .btn {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease; /* Transición suave para efectos */
+    }
+    
 }
 
 
@@ -73,6 +90,18 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
         width: 150px;
         height: 150px;
     }
+
+    .btn {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease; /* Transición suave para efectos */
+    }
+
     
 }
 
