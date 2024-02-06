@@ -1,0 +1,63 @@
+
+
+
+
+$mobile: "(min-width: 319px) and (max-width: 480px)";
+$tablet: "(min-width: 481px) and (max-width: 1200px)";
+$desktop-small: "(min-width: 1201px) and (max-width: 1600px)";
+$desktop-large: "(min-width: 1601px) and (max-width:2000px)";
+
+// Mixins para Media Queries
+@mixin mobile {
+    @media #{$mobile} {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media #{$tablet} {
+        @content;
+    }
+}
+
+@mixin desktop-small {
+    @media #{$desktop-small} {
+        @content;
+    }
+}
+
+@mixin desktop-large {
+    @media #{$desktop-large} {
+        @content;
+    }
+}
+
+/* Estilos base que se aplicarán en todos los tamaños de pantalla */
+/* Puedes ajustar estos estilos según tus necesidades */
+
+/* Estilos para el encabezado */
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        .header-nav{
+            margin: 0;
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1200px){
+    body{      
+    }
+}
+
+@media (min-width:1201px) and (max-width: 1600px){
+    body{
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 2000px){
+    body{
+    }
+}
+
+

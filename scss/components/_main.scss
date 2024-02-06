@@ -1,0 +1,30 @@
+@import "../components/font";
+@import "../base/variables";
+
+.main{
+    font-size: large;
+    padding: 5rem;
+    background-color: $colorPrincipal;;
+}
+
+.main-p{ 
+    margin-bottom: 2rem;
+    color: rgb(214, 214, 214);
+}
+
+
+.main-h1{
+    color: rgb(241, 249, 255);
+}
+
+.main-h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(241, 249, 255);
+}
+
+.span-titulo{
+    padding-left: 5rem;
+    display: block;
+    color: rgb(181, 181, 181);
+}
