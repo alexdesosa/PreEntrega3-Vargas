@@ -28,3 +28,22 @@
     display: block;
     color: rgb(181, 181, 181);
 }
+
+.btn {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+.btn:hover {
+    transform: scale(1.1); /* Hace que el botón se haga más grande al pasar el cursor por encima */
+}
+
+.btn:active {
+    background-color: rgb(255, 166, 0); /* Cambia el color del botón al presionarlo */
+}

@@ -15,15 +15,6 @@ footer {
   background-color: rgb(128, 128, 128);
 }
 
-.ftcontainer {
-  padding-top: 2rem;
-  padding-left: 5rem;
-  display: flex;
-  align-items: flex-start;
-  column-gap: 7rem;
-  text-decoration: none;
-}
-
 .footersocial-link {
   padding-right: 20px;
   text-decoration: none;
@@ -92,19 +83,8 @@ header nav ul li a {
   align-items: center;
 }
 
-.logo {
-  padding-right: 45rem;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 0.8rem;
-}
-
 .enlaces-header {
   gap: 10px;
-}
-
-.container {
-  width: 100%;
 }
 
 * {
@@ -146,6 +126,25 @@ header nav ul li a {
   color: rgb(181, 181, 181);
 }
 
+.btn {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+.btn:hover {
+  transform: scale(1.1); /* Hace que el botón se haga más grande al pasar el cursor por encima */
+}
+
+.btn:active {
+  background-color: rgb(255, 166, 0); /* Cambia el color del botón al presionarlo */
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -155,9 +154,67 @@ header nav ul li a {
 /* Puedes ajustar estos estilos según tus necesidades */
 /* Estilos para el encabezado */
 @media (min-width: 319px) and (max-width: 480px) {
-  body .header-nav {
-    margin: 0;
-    width: 100%;
+  .ftcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+  .border-ft {
+    border: none;
+    padding-right: 6rem;
+  }
+  .arte-1 {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 481px) and (max-width: 800px) {
+  .ftcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+  .border-ft {
+    border: none;
+    padding-right: 6rem;
+  }
+  .arte-1 {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1200px) {
+  .logo {
+    padding-right: 45rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+  }
+  .ftcontainer {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 7rem;
+    text-decoration: none;
+  }
+}
+@media (min-width: 1201px) {
+  .logo {
+    padding-right: 45rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+  }
+  .ftcontainer {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 7rem;
+    text-decoration: none;
   }
 }
 .p-link {
