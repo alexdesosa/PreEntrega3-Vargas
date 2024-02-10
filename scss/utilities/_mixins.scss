@@ -71,6 +71,24 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
         cursor: pointer;
         transition: all 0.3s ease; 
     }
+
+    .main-opinion {
+        max-width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #707070;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    input[type="text"],
+    textarea {
+        width: 10rem;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
     
 }
 
@@ -116,6 +134,23 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
         padding-right: 0rem!important;
     }
 
+    .main-opinion {
+        max-width: auto;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #707070;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    input[type="text"],
+    textarea {
+        width: auto;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
     
 }
 
