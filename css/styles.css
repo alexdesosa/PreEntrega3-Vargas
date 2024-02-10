@@ -47,6 +47,7 @@ footer {
 
 .derechos-footer {
   font-size: 0.65rem;
+  margin-bottom: 0rem !important;
 }
 
 .border-ft {
@@ -110,6 +111,10 @@ header nav ul li a {
   color: rgb(214, 214, 214);
 }
 
+.eventos {
+  padding-right: 0rem !important;
+}
+
 .main-h1 {
   color: rgb(241, 249, 255);
 }
@@ -150,9 +155,6 @@ header nav ul li a {
   margin: 0;
 }
 
-/* Estilos base que se aplicarán en todos los tamaños de pantalla */
-/* Puedes ajustar estos estilos según tus necesidades */
-/* Estilos para el encabezado */
 @media (min-width: 319px) and (max-width: 480px) {
   .ftcontainer {
     display: flex;
@@ -168,9 +170,11 @@ header nav ul li a {
     width: 150px;
     height: 150px;
   }
-  .arte-2 {
-    width: 400px;
-    height: 400px;
+  .pinturas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .btn {
     background-color: black;
@@ -180,7 +184,7 @@ header nav ul li a {
     font-size: 16px;
     border-radius: 25px;
     cursor: pointer;
-    transition: all 0.3s ease; /* Transición suave para efectos */
+    transition: all 0.3s ease;
   }
 }
 @media (min-width: 481px) and (max-width: 800px) {
@@ -198,6 +202,12 @@ header nav ul li a {
     width: 150px;
     height: 150px;
   }
+  .pinturas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .btn {
     background-color: black;
     color: rgb(255, 255, 255);
@@ -206,12 +216,21 @@ header nav ul li a {
     font-size: 16px;
     border-radius: 25px;
     cursor: pointer;
-    transition: all 0.3s ease; /* Transición suave para efectos */
+    transition: all 0.3s ease;
+  }
+  .eventos {
+    padding-right: 0rem !important;
   }
 }
 @media (min-width: 801px) and (max-width: 1200px) {
   .logo {
     padding-right: 45rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+  }
+  .logo-eventos {
+    padding-right: 42rem;
     padding-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 0.8rem;
@@ -224,10 +243,35 @@ header nav ul li a {
     column-gap: 7rem;
     text-decoration: none;
   }
+  .pinturas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .eventos {
+    padding-right: 0rem !important;
+  }
+  .btn {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
 }
 @media (min-width: 1201px) {
   .logo {
     padding-right: 45rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.8rem;
+  }
+  .logo-eventos {
+    padding-right: 42rem;
     padding-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 0.8rem;

@@ -30,10 +30,7 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
     }
 }
 
-/* Estilos base que se aplicarán en todos los tamaños de pantalla */
-/* Puedes ajustar estos estilos según tus necesidades */
 
-/* Estilos para el encabezado */
 @media (min-width: 319px) and (max-width: 480px) {
     .ftcontainer{
         display: flex;
@@ -53,11 +50,17 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
         height: 150px;
     }
 
-    .arte-2{
-        width: 400px;
-        height: 400px;
-    }
+    // .arte-2{
+    //     width: 400px;
+    //     height: 400px;
+    // }
 
+    .pinturas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .btn {
         background-color: black;
         color: rgb(255, 255, 255);
@@ -66,7 +69,7 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
         font-size: 16px;
         border-radius: 25px;
         cursor: pointer;
-        transition: all 0.3s ease; /* Transición suave para efectos */
+        transition: all 0.3s ease; 
     }
     
 }
@@ -91,6 +94,13 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
         height: 150px;
     }
 
+    .pinturas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .btn {
         background-color: black;
         color: rgb(255, 255, 255);
@@ -99,7 +109,11 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
         font-size: 16px;
         border-radius: 25px;
         cursor: pointer;
-        transition: all 0.3s ease; /* Transición suave para efectos */
+        transition: all 0.3s ease; 
+    }
+
+    .eventos{
+        padding-right: 0rem!important;
     }
 
     
@@ -113,6 +127,14 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
             padding-top: 1rem;
             padding-bottom: .8rem;
         }
+
+        .logo-eventos{
+            padding-right: 42rem;
+            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: .8rem;      
+        }
+
         .ftcontainer{
                 padding-top: 2rem;
                 padding-left: 5rem;
@@ -121,6 +143,29 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
                 column-gap: 7rem;
                 text-decoration: none;
             }
+
+            .pinturas{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .eventos{
+                padding-right: 0rem!important;
+            }
+
+            .btn {
+                background-color: black;
+                color: rgb(255, 255, 255);
+                border: 1px solid rgb(255, 255, 255);
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 25px;
+                cursor: pointer;
+                transition: all 0.3s ease; 
+            }
+
 }
 
 @media (min-width: 1201px){
@@ -130,6 +175,14 @@ $desktop-large: "(min-width: 1601px) and (max-width:2000px)";
             padding-top: 1rem;
             padding-bottom: .8rem;
         }
+
+        .logo-eventos{
+            padding-right: 42rem;
+            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: .8rem;      
+        }
+
         .ftcontainer{
                 padding-top: 2rem;
                 padding-left: 5rem;
